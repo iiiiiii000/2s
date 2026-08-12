@@ -75,7 +75,7 @@ def main():
     for country in country_order:
         for link in by_country[country]:
             all_final_links.append(transform_link(link, country))
-    header = "# profile-title: loli vpn <3\n# profile-update-interval: 1\n#profile-web-page-url: https://t.me/loli_free_vpn\n#announce: 0JHQtdGB0L/Qu9Cw0YLQvdCw0Y8g0L/QvtC00L/QuNGB0LrQsCDQvdCw0LLRgdC10LPQtNCwLSB8INCR0L7RgjogQGxvbGl2cG5yb2JvdA==\n"
+    header = "# profile-title: loli vpn <3\n# profile-update-interval: 1\n#profile-web-page-url: https://t.me/loli_free_vpn\n#announce: Бесплатная подписка навсегда- | Бот: @lolivpnrobot\n"
     with open("sub", "w", encoding="utf-8") as f:
         f.write(header + "\n".join(all_final_links))
 
